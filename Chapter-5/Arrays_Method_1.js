@@ -1,12 +1,13 @@
 //#1 Convert the Set into String
 // let num = [3, 3, 34, 43, 44]
-// let b= num.toString()
-// console.log(b)
+// let a = toString(num)
+// console.log(typeof(a))
 
 //#2 Join all the arrays element by separator
+
 // let num = [3, 3, 34, 43, 44]
-// let b= num.join("_")
-// console.log(b)
+// a=num.join(" & ")
+// console.log(a)
 
 //#3 remove the last element in the arrays
 // let num = [3, 3, 34, 43, 44]
@@ -34,31 +35,32 @@
 // console.log(sum)
 
 //#8 used to join to the given arrays
-// let sum = [2324, 343, 332, 34, 3432]
-// let sum1=[1,2,3,4,5,6]
-// let New = sum.concat(sum1)
-// console.log(New)
+// let a=[1,2,3,4,5]
+// let a1=[6,7,8,9,10,11,12]
+// a = a.concat(a1)
+// console.log(a)
+
 
 //#9 short is used to sort an arrays alphabetically
 // let compare=(a,b)=>{
 //     return a-b
 // }
 // let sum=[1,2,3,4,5,6,92,7,8,12]
-
 // console.log(sum.sort(compare))
 
 // Example of sort
 
-// const compare = (a, b) =>{
+// const compare=(a,b)=>{
 //     if (a.title<b.title){
 //         return -1
 //     }
 //     else if (a.title>b.title){
 //         return 1
 //     }
-//     return 0
+//     else{
+//         return 0
+//     }
 // }
-  
 //   const books = [
 //     { title: 'Harry Potter', author: 'J.K. Rowling' },
 //     { title: 'Lord of the Rings', author: 'J.R.R. Tolkien' },
@@ -74,4 +76,3 @@
 // sum.splice(5,5,6,7,8,9,10)
 // console.log(sum)
 
-//Slice 

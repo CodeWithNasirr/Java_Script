@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>closest and contains Example</title>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <p id="target">This is a paragraph.</p>
+        </div>
+    </div>
+
+    <script>
+        const parentElement = document.getElementById('parent');
+        const childElement = document.getElementById('child');
+        const targetElement = document.getElementById('target');
+
+        if (parentElement.contains(targetElement)) {
+            console.log('The target element is a descendant of the parent element.');
+        } else {
+            console.log('The target element is not a descendant of the parent element.');
+        }
+
+        if (parentElement.contains(childElement)) {
+            console.log('The child element is a descendant of the parent element.');
+        } else {
+            console.log('The child element is not a descendant of the parent element.');
+        }
+    </script>
+</body>
+</html>

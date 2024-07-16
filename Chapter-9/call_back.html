@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <!-- Corrected script loading function -->
+    <script>
+        function loadScript(src,callback){
+            let script = document.createElement('script');
+            script.src = src;
+            script.onload = function(){
+                console.log("loding...SRc " + src);
+                callback(null,src);
+            }
+            script.onerror = function(){
+                console.log("Error Loading Src With Error" + src);
+                callback(new Error,"Src Got Some Error! ")
+             
+            };
+            document.body.appendChild(script);
+        }
+        function hello(error,src){
+            if (error){
+                console.log("error")
+                return
+            }
+            alert('Hello')
+        }
+        function Morning(){
+            alert('Good Morning')
+        }
+
+        // Call the function with the correct jQuery script URL
+        loadScript("https://code.jquery.com/jquery-3.3.1.slim.min.js",hello);
+    </script>
+</body>
+</html>

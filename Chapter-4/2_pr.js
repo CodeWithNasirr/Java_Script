@@ -1,7 +1,7 @@
-let name=["Nasir","Asir","Farsha","Nasor"]
+let name=["Nasir","Asir","auide","Nasriwe"]
 
-for(let i=0;i<name.length;i++){
+for(i=0;i<name.length;i++){
     if (name[i].startsWith("N")){
-        console.log("Good Morning",name[i])
+        console.log(`Good Moring ${(name)[i]}`)
     }
 }

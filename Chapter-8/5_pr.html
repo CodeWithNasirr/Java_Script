@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bulb{
+           height: 344px;
+            width: 344px;
+            background-color: yellow;
+        }
+        .bulb-container{
+            height: 344px;
+            width: 344px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bulb" class="bulb bulb-container"></div>
+</body>
+<script>
+    const func=()=>{
+        let a=document.querySelector("#bulb").classList.toggle('bulb')
+        console.log(a)
+    }
+    setInterval(func,1000)
+
+</script>
+</html>

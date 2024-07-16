@@ -1,5 +1,5 @@
 // Turnery Operator
 
-let a=12
+let a=23
 
-console.log(a>18?"You can Drive":"You cant Drive")
+console.log(a>18?"can Drive":"cant drive")

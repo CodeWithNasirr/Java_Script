@@ -7,3 +7,7 @@ let a={
 for(let keys in a){
     console.log(keys + " Marks is " + a[keys])
 }
+// or
+for (let keys in a){
+    console.log(`${keys} marks is ${a[keys]}`)
+}

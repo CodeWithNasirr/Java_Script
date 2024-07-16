@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="first">
+            Iam a first Element
+        </div>
+    </div>
+    <script>
+        let a=document.getElementsByTagName("div")[0]
+        // console.log(a)
+        // a.innerHTML= a.innerHTML + "<h1>Hello</h1>"
+
+        let div=document.createElement("div");
+        div.innerHTML="<h1>Helslo</h1>"
+        a.appendChild(div)
+        // more append function in pdf page 42
+
+
+        </script>
+</body>
+</html>

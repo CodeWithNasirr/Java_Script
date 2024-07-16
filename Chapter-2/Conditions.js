@@ -1,14 +1,14 @@
-let age=12
+let age=120
 
-if (age>0){
+if (age<0){
     console.log("A Valid Age");
   }
-  else if (age>10 && age<15){
+else if (age>10 && age<15){
     console.log("But You are a kid");
   }
-  else if (age>18){
+else if (age>18 && age<30){
     console.log("You are not a kid");
   }
-  else{
-    console.log("Invalid Age");
+else{
+    console.log("you are a oldest man! ");
   }

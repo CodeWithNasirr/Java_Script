@@ -5,4 +5,4 @@ const c ={
 }
 // c=324 Q3 
 c["Friend"]="Nasir"
-
+console.log(c)

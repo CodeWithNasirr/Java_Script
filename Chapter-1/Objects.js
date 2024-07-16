@@ -8,4 +8,4 @@ const item={
     roll:12
     
 }
-console.log(item["roll"])
+console.log(item["class"])

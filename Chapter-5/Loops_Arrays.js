@@ -1,4 +1,5 @@
 let a=[2,34,43,3433,23,3]
+
 for (let i=0;i<a.length;i++){
     console.log(a[i])
 }

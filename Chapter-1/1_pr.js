@@ -1,2 +1,2 @@
-let a="Nasir"
-console.log(43+"-" +a)
+let a= "Nasir"
+console.log(a +"24")

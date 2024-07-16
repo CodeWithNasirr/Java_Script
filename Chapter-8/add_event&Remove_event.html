@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click me</button>
+</body>
+<script>
+    const x =()=>{
+        alert("Hello World 1") 
+    }
+    const y =()=>{
+        alert("Hello World 2") 
+    }
+    
+
+
+    btn.addEventListener('click',x)
+    btn.addEventListener('click',y)
+    let a=prompt('Enter the Number 1 & 2 ')
+    if (a=="1"){
+        btn.removeEventListener('click',y)
+    }
+    else{
+        btn.removeEventListener('click',x)
+    }
+</script>
+</html>
